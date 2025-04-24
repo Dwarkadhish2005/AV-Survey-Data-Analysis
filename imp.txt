@@ -1,0 +1,51 @@
+project name: AVision: Insights from the 2019 Autonomous Vehicle Survey
+
+dataset link : https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyclists-and-pedestrians-in-pittsburgh/resource/05bd1321-e4d5-4667-afb8-680127795a51
+
+
+ Objective 1: How does the perceived safety of AVs compare to human-driven vehicles?
+Use: SafeAv, SafeHuman
+
+Tasks:
+
+Compare average safety scores.
+
+Use violin/box plots for visual distribution.
+
+Segment by age groups or familiarity with tech/news.
+
+📊 Objective 2: What factors influence whether respondents believe AVs will have a positive or negative impact?
+Use: AvImpact, FamiliarityTech, FamiliarityNews, Age, BikePghMember
+
+Tasks:
+
+Bar plots or heatmaps showing AV impact vs familiarity levels.
+
+Analyze correlations or trends in perceptions.
+
+🚦 Objective 3: Are people supportive of AVs operating in specific contexts like school zones or low-speed areas?
+Use: SchoolZoneManual, Speed25Mph, TwoEmployeesAv
+
+Tasks:
+
+Calculate proportion of support vs opposition.
+
+Explore demographic differences (e.g., age or car ownership).
+
+🚲 Objective 4: Does being a cyclist, pedestrian, or member of BikePGH affect attitudes towards AV safety and data sharing?
+Use: SharedCyclist, SharedPedestrian, BikePghMember, ShareTripData, SharePerformanceData
+
+Tasks:
+
+Cross-tabulations of attitudes toward AVs and AV data sharing.
+
+Visuals like stacked bar charts.
+
+📱 Objective 5: How do personal characteristics (like car ownership, smartphone use, age) correlate with openness to AV tech and incident reporting?
+Use: AutoOwner, SmartphoneOwner, ReportSafetyIncident, Age
+
+Tasks:
+
+Explore demographics of people likely to report safety incidents.
+
+Create age vs openness heatmaps or categorical plot
