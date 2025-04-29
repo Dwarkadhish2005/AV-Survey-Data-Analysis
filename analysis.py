@@ -116,11 +116,6 @@ sns.countplot(x='SharePerformanceData', hue='SmartphoneOwner', data=df, ax=axes[
 axes[1,1].set_title('Performance Data Sharing by Smartphone Ownership')
 save_plot(fig8, 'data_sharing_analysis')
 
-fig9 = plt.figure(figsize=(12, 6))
-sns.histplot(data=df, x='Age', bins=30, kde=True)
-plt.title('Age Distribution of Survey Respondents')
-save_plot(fig9, 'age_distribution')
-
 
 fig10, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 8))
 sns.countplot(x='FamiliarityTech', data=df, ax=ax1)
