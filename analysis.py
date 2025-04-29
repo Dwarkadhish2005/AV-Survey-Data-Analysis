@@ -7,8 +7,7 @@ import os
 
 plt.style.use('seaborn-v0_8')
 sns.set_palette("husl")
-plt.rcParams['figure.figsize'] = [12, 8]
-plt.rcParams['figure.dpi'] = 300
+
 
 df = pd.read_csv('avsurvey2019data.csv')
 
