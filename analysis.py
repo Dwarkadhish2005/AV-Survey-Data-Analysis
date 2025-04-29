@@ -140,3 +140,10 @@ f_stat, p_value = stats.f_oneway(*age_groups)
 print(f"\n2. ANOVA test for age groups and safety perception:")
 print(f"F-statistic: {f_stat:.2f}, p-value: {p_value:.4f}")
 
+
+
+print("\nSummary Statistics for Key Variables:")
+print(df[['SafeAv', 'SafeHuman', 'AvImpact', 'Age']].describe())
+
+print("\nAll plots have been displayed and saved in the 'plots' directory.")
+print("You can find the saved plots at: ./plots/")
